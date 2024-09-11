@@ -44,4 +44,3 @@
 	"setting.dx_version_check_timestamp"		"0"                            // Проверка версии DirectX
 	"setting.set_dress_level"		"1"                                    // Уровень детализации одежды персонажей
 }
- 
