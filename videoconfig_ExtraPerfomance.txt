@@ -1,8 +1,8 @@
 "VideoConfig"
 {
 	"setting.cl_gib_allow"		"0"                                            // Отключает эффекты разлета частиц                                                                       
-	"setting.cl_particle_fallback_base"		"3"                            // Количество отображаемых частиц при высокой нагрузке, меньшее значение — больше частиц                               
-	"setting.cl_particle_fallback_multiplier"		"0"                    // Множитель для количества отображаемых частиц                                                                   
+	"setting.cl_particle_fallback_base"		"-3"                           // Количество отображаемых частиц при высокой нагрузке, меньшее значение — больше частиц                               
+	"setting.cl_particle_fallback_multiplier"		"-2"                   // Множитель для количества отображаемых частиц                                                                   
 	"setting.cl_ragdoll_maxcount"		"0"                                    // Физика объектов ragdoll (физические модели персонажей после смерти)                                    
 	"setting.cl_ragdoll_self_collision"		"0"                            // Самоколлизии ragdoll объектов (столкновения между персонажами после смерти)                           
 	"setting.mat_forceaniso"		"0"                                    // Качество анизотропной фильтрации (1-2-4-16)                                                           
