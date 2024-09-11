@@ -1,0 +1,47 @@
+"VideoConfig"
+{
+	"setting.cl_gib_allow"		"0"                                            // Отключает эффекты разлета частиц                                                                       
+	"setting.cl_particle_fallback_base"		"3"                                // Количество отображаемых частиц при высокой нагрузке, меньшее значение — больше частиц                               
+	"setting.cl_particle_fallback_multiplier"		"2"                          // Множитель для количества отображаемых частиц                                                                   
+	"setting.cl_ragdoll_maxcount"		"0"                                      // Физика объектов ragdoll (физические модели персонажей после смерти)                                    
+	"setting.cl_ragdoll_self_collision"		"0"                                // Самоколлизии ragdoll объектов (столкновения между персонажами после смерти)                           
+	"setting.mat_forceaniso"		"1"                                          // Качество анизотропной фильтрации (1-2-4-16)                                                           
+	"setting.mat_mip_linear"		"0"                                          // Трилинейная фильтрация (Линейная интерполяция + билинейная фильтрация)                                 
+	"setting.stream_memory"		"0"                                            // Качество текстур                                                                                       
+	"setting.mat_picmip"		"0"                                              // Уровень детализации текстур                                                                            
+	"setting.particle_cpu_level"		"0"                                      // Частицы обрабатываемые процессором                                                                     
+	"setting.r_createmodeldecals"		"0"                                      // Создание декалей на моделях                                                                           
+	"setting.r_decals"		"0"                                                // Отображение декалей на поверхностях                                                                    
+	"setting.r_lod_switch_scale"		"0.6"                                    // Качество моделей                                                                                  
+	"setting.shadow_enable"		"0"                                            // Тени                                                                                                           
+	"setting.shadow_depth_dimen_min"		"0"                                  // Использование карт глубины для теней                                                                  
+	"setting.shadow_depth_upres_factor_max"		"0"                            // Разрешения теней для карт глубины теней                                                               
+	"setting.shadow_maxdynamic"		"0"                                        // Динамические тени                                                                                   
+	"setting.ssao_enabled"		"0"                                            // SSAO (эффект затенения на основе окружающей среды).                                                   
+	"setting.ssao_downsample"		"3"                                          // Качество объемного освещения                                                                           
+	"setting.dvs_enable"		"0"                                              // Адаптивное разрешение                                                                                          
+	"setting.dvs_gpuframetime_min"		"15000"                                // Минимальное время рендеринга кадра на GPU                                                              
+	"setting.dvs_gpuframetime_max"		"16500"                                // Максимальное время рендеринга кадра на GPU
+	"setting.sound_volume"		"1"                                            // Звук                                                                                                   
+	"setting.last_display_width"		"1920"                                   // Последняя Ширина экрана
+	"setting.last_display_height"		"1080"                                   // Последняя Высота экрана
+	"setting.nowindowborder"		"0"                                          // Отображением границ окна игры 
+	"setting.fullscreen"		"1"                                              // Полноэкранный режим
+	"setting.defaultres"		"1440"                                           // Ширина экрана по умолчанию 
+	"setting.defaultresheight"		"1080"                                     // Высота экрана по умолчанию
+	"setting.volumetric_lighting"		"0"                                      // Объемное освещение
+	"setting.volumetric_fog"		"0"                                          // Объемный туман
+	"setting.mat_vsync_mode"		"0"                                          // Вертикальная синхронизация
+	"setting.mat_backbuffer_count"		"0"                                    // Буфферная синхронизация
+	"setting.mat_antialias_mode"		"0"                                      // Сглаживание
+	"setting.csm_enabled"		"0"                                              // Тени от солнца
+	"setting.csm_coverage"		"0"                                            // Динамические тени 
+	"setting.csm_cascade_res"		"512"                                        // Разрешение теней
+	"setting.fadeDistScale"		"1.000000"                                     // Дальность прорисовки
+	"setting.new_shadow_settings"		"0"                                      // Новые настройки теней
+	"setting.gamma"		"1.000000"                                             // Гамма 
+	"setting.configversion"		"8"                                            // Версия конфигурационного файла
+	"setting.dx_version_check_timestamp"		"0"                              // Метка времени для проверки версии DirectX
+	"setting.set_dress_level"		"1"                                          // Уровень детализации одежды персонажей
+}
+ 
