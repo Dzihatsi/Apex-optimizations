@@ -7,7 +7,7 @@
 	"setting.cl_ragdoll_self_collision"		"0"                            // Самоколлизии ragdoll объектов (столкновения между персонажами после смерти)                           
 	"setting.mat_forceaniso"		"1"                                    // Качество анизотропной фильтрации (1-2-4-16)                                                           
 	"setting.mat_mip_linear"		"0"                                    // Трилинейная фильтрация (Линейная интерполяция + билинейная фильтрация)                                 
-	"setting.stream_memory"		"0"                                            // Качество текстур                                                                                       
+	"setting.stream_memory"		"1"                                            // Качество текстур                                                                                       
 	"setting.mat_picmip"		"0"                                            // Уровень детализации текстур                                                                            
 	"setting.particle_cpu_level"		"0"                                    // Частицы обрабатываемые процессором                                                                     
 	"setting.r_createmodeldecals"		"0"                                    // Создание декалей на моделях                                                                           
@@ -18,7 +18,7 @@
 	"setting.shadow_depth_upres_factor_max"		"0"                            // Разрешения теней для карт глубины теней                                                               
 	"setting.shadow_maxdynamic"		"0"                                    // Динамические тени                                                                                   
 	"setting.ssao_enabled"		"0"                                            // SSAO (эффект затенения на основе окружающей среды).                                                   
-	"setting.ssao_downsample"		"3"                                    // Качество объемного освещения                                                                           
+	"setting.ssao_downsample"		"0"                                    // Качество объемного освещения                                                                           
 	"setting.dvs_enable"		"0"                                            // Адаптивное разрешение                                                                                          
 	"setting.dvs_gpuframetime_min"		"15000"                                // Минимальное время рендеринга кадра на GPU                                                              
 	"setting.dvs_gpuframetime_max"		"16500"                                // Максимальное время рендеринга кадра на GPU
